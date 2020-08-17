@@ -28,7 +28,13 @@ map <c-F12> :term php %<CR>
 map <c-F11> :terminal python3 %<CR>
 nnoremap <F12> :e ++enc=utf-8<CR>
 nnoremap <c-\> :NERDTreeToggle<CR>
-
+"manipulando tabs
+noremap <Tab> :bn<CR>
+noremap <S-Tab> :bp<CR>
+noremap <Leader><Tab> :Bw<CR>
+noremap <Leader><S-Tab> :Bw!<CR>
+noremap <C-t> :tabnew split<CR>
+map <C-t> :tab split<CR>
 
 "gruvbox
 let g:airline_powerline_fonts = 1
