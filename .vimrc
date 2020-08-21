@@ -25,7 +25,7 @@ filetype indent on
 "meus atalhos
 map <c-x> :bd<CR>
 map <c-F12> :term php %<CR>
-map <c-F11> :terminal python3 %<CR>
+map <c-F11> :term python3 %<CR>
 nnoremap <F12> :e ++enc=utf-8<CR>
 nnoremap <c-\> :NERDTreeToggle<CR>
 "manipulando tabs
@@ -36,8 +36,8 @@ noremap <Leader><S-Tab> :Bw!<CR>
 noremap <C-t> :tabnew split<CR>
 map <C-t> :tab split<CR>
 
+
 "gruvbox
-let g:airline_powerline_fonts = 1
 colorscheme gruvbox
 set background=dark
 set t_Co=256
