@@ -28,6 +28,7 @@ map <c-F12> :term php %<CR>
 map <c-F11> :term python3 %<CR>
 nnoremap <F12> :e ++enc=utf-8<CR>
 nnoremap <c-\> :NERDTreeToggle<CR>
+nnoremap <c-z> <nop>
 "manipulando tabs
 noremap <Tab> :bn<CR>
 noremap <S-Tab> :bp<CR>
